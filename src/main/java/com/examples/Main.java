@@ -26,8 +26,12 @@ public class Main {
         String fmt = "%-8s  %-24s  %-12s  %s%n";
         String divider = "-".repeat(58);
 
-        System.out.println("\n  Multimedia AI Detection");
+        System.out.println("\n  Is it AI or not?  \n");
         System.out.println(divider);
+        System.out.println("This tools Analyzes the content of multimedia files &");
+        System.out.println("Determines if they are AI-related based on their creation date.");
+        System.out.println(divider);
+        System.out.println();
         System.out.printf(fmt, "Type", "File Name", "Created", "AI?");
         System.out.println(divider);
 
